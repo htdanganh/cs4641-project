@@ -26,8 +26,8 @@ categories: jekyll update
 | Name           | Proposal Contributions           |
 | -------------- | -------------------------------- |
 | Anh Dang       | Video Presentation, GitHub       |
-| Ayush Gundawar | Introduction/Background          |
 | Arjun Birthi   | Gantt Chart, Problem Definition  |
+| Ayush Gundawar | Introduction/Background          |
 | Daniel Oh      | Potential Results and Discussion |
 | Jatong Su      | Methods                          |
 

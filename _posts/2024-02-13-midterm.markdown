@@ -53,8 +53,8 @@ refer to guidance from the [proposal checklist][proposal-checklist-link]
 | Name           | Proposal Contributions           |
 | -------------- | -------------------------------- |
 | Anh Dang       |  |
+| Arjun Brithi   |  |
 | Ayush Gundawar |  |
-| Arjun Birthi   |  |
 | Daniel Oh      |  |
 | Jatong Su      |  |
 
