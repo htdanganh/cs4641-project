@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Proposal"
 date:   2024-02-13 19:11:25 -0500
 categories: jekyll update
 ---
@@ -27,3 +27,38 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-talk]: https://talk.jekyllrb.com/
+
+## Report
+
+# Introduction
+
+# Problem Definition
+
+# Methods
+
+# Potential Results and Discussion
+
+# References
+
+## GANTT Chart
+
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQPLR3jTE39V2K0tIGH1kdZo5IN6oRspdIzQzABtd7MeiOdOoaVEUMRmsrYv4d63a6HDr7mUs0Uc939/pubhtml?widget=true&amp;headers=false" width="100%" height="800"></iframe>
+
+## Contribution Table
+
+| Name           | Proposal Contributions           |
+| -------------- | -------------------------------- |
+| Anh Dang       | Video Presentation, GitHub       |
+| Ayush Gundawar | Introduction/Background          |
+| Arjun Birthi   | Gantt Chart, Problem Definition  |
+| Daniel Oh      | Potential Results and Discussion |
+| Jatong Su      | Methods                          |
+
+
+## Video
+
+(Youtube link goes here)
+
+A link to the slideshow can be found [here][slideshow-link].
+
+[slideshow-link]: https://docs.google.com/presentation/d/1EGMJgCLksneyEFW0tC5T3iwEW4B7H_UWbXl6N1QM_FY/edit?usp=sharing
