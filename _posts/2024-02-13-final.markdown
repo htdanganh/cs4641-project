@@ -6,3 +6,65 @@ categories: jekyll update
 ---
 
 You eager beaver! Check back later.
+
+The final report should present and compare at least 3 models that you have developed throughout the semester. Results should be presented using visualizations and quantitative metrics with a heavy focus on comparing the performance and tradeoffs of each approach. You will add information to your midterm to create your final report.
+
+
+_Note: As part of research, it is natural that the project may change from the original proposed. Please be sure to document and justify any such changes in this report._
+
+
+## Report
+The final report must be written on a website hosted with GitHub Pages. There is no word limitation for this deliverable. Reuse your midterm report and make the necessary updates and/or additions.
+
+# Introduction
+refer to guidance from the [proposal checklist][proposal-checklist-link]
+
+# Problem Definition
+refer to guidance from the [proposal checklist][proposal-checklist-link]
+
+# Methods
+Present multiple solutions including specific data processing methods and machine learning algorithms. Explain why your chosen models and methods were selected.
+
+```
+✅1+ Data Preprocessing Methods
+✅3+ Algorithms/Models
+✅CS 7641: Unsupervised and Supervised Learning Method Implemented
+✅CS 4641: Supervised Learning Method Implemented
+```
+
+# Results and Discussion
+Discuss the results of your methods. Present visualizations and quantitative scoring metrics to analyze the performance of your models. Compare each approach and explain the tradeoffs, strengths, and limitations of each approach. What does your visualization/metric tell you? Why did each model perform well/poorly? How do the models compare to each other? What are the next steps if any?
+
+```
+✅Visualizations
+✅Quantitative Metrics
+✅Analysis of 3+ Algorithms/Models
+✅Comparison of 3+ Algorithms/Models
+✅Next Steps
+```
+
+# References
+refer to guidance from the [proposal checklist][proposal-checklist-link]
+
+## GANTT Chart
+
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQPLR3jTE39V2K0tIGH1kdZo5IN6oRspdIzQzABtd7MeiOdOoaVEUMRmsrYv4d63a6HDr7mUs0Uc939/pubhtml?widget=true&amp;headers=false" width="100%" height="800"></iframe>
+
+## Contribution Table
+
+| Name           | Proposal Contributions           |
+| -------------- | -------------------------------- |
+| Anh Dang       |  |
+| Ayush Gundawar |  |
+| Arjun Birthi   |  |
+| Daniel Oh      |  |
+| Jatong Su      |  |
+
+## Video Presentation
+The final video is a 9-minute recorded presentation that summarizes your proposal using Microsoft PowerPoint, Google Slides, or equivalent (~7 minutes is recommended). We will NOT accept submissions which are over 9 minutes or submissions that do not use YouTube Unlisted. You must create a YouTube Unlisted video and submit the link. Not all group members need to participate in the recording. Some criteria that will be used for evaluation are the following:
+
+- Strong delivery that clearly communicates all sections of the final report
+- Effective slide design which incorporates visuals that are interpretable and legible. Any visuals that are blurry, cut-off, or contain illegible text will not be considered.
+- Concise and succinct summary of the final report and all technical content
+
+[proposal-checklist-link]: https://mahdi-roozbahani.github.io/CS46417641-spring2024/docs/grading/project-breakdown/proposal/#proposal-sections--checklist
