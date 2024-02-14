@@ -6,3 +6,55 @@ categories: jekyll update
 ---
 
 You eager beaver! Check back later.
+
+This is a checkpoint to make sure that you have had major progress in your project. By this point, at least one machine learning model should be implemented and evaluated. Results should be presented using visualizations and quantitative metrics. You will add information to your proposal to create your midterm report.
+
+_Note: As part of research, it is natural that the project may change from the original proposed. Please be sure to document and justify any such changes in this report._
+
+
+## Report
+
+# Introduction
+refer to guidance from the [proposal checklist][proposal-checklist-link]
+
+# Problem Definition
+refer to guidance from the [proposal checklist][proposal-checklist-link]
+
+# Methods
+Present at least one implemented solution including specific data processing method(s) and machine learning algorithm(s). Explain why your chosen model(s) and method(s) were selected.
+
+```
+✅1+ Data Preprocessing Method Implemented
+✅1+ ML Algorithms/Models Implemented
+✅CS 7641: Unsupervised or Supervised Learning Method Implemented
+✅CS 4641: Supervised Learning Method Implemented
+```
+
+# Results and Discussion
+Discuss the results of your methods and present visualizations and quantitative scoring metrics. What does your visualization/metric tell you? Why did your model perform well/poorly? What are the next steps you plan to take?
+
+```
+✅Visualizations
+✅Quantitative Metrics
+✅Analysis of 1+ Algorithm/Model
+✅Next Steps
+```
+
+# References
+refer to guidance from the [proposal checklist][proposal-checklist-link]
+
+## GANTT Chart
+
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQPLR3jTE39V2K0tIGH1kdZo5IN6oRspdIzQzABtd7MeiOdOoaVEUMRmsrYv4d63a6HDr7mUs0Uc939/pubhtml?widget=true&amp;headers=false" width="100%" height="800"></iframe>
+
+## Contribution Table
+
+| Name           | Proposal Contributions           |
+| -------------- | -------------------------------- |
+| Anh Dang       |  |
+| Ayush Gundawar |  |
+| Arjun Birthi   |  |
+| Daniel Oh      |  |
+| Jatong Su      |  |
+
+[proposal-checklist-link]: https://mahdi-roozbahani.github.io/CS46417641-spring2024/docs/grading/project-breakdown/proposal/#proposal-sections--checklist
