@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Final Report"
-date:   2024-04-23 11:11:11 -0500
+title:  "Midterm Checkpoint"
+date:   2024-02-13 11:11:11 -0500
 categories: jekyll update
 ---
 
