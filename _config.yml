@@ -23,7 +23,7 @@ author: Anh Dang, Ayush Gundawar, Arjun Birthi, Daniel Oh, and Jatong Su
 description: >- # this means to ignore newlines until "baseurl:"
   House value predictor using machine learning for CS 4641
   at Georgia Tech, Spring 2024.
-baseurl: /project
+baseurl: /house-value-predictor 
 url: "https://htdanganh.github.io/house-value-predictor"
 
 # Build settings
