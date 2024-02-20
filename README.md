@@ -1,5 +1,7 @@
-# CS 4641: House Value Predictor 🏠
+# Georgia Tech CS 4641: House Value Predictor - Group 29 🏠
 
-Website presenting the project proposal, midterm report, and final report for a house value predictor.
+## House Value Predictor 
+## Developers
+Anh Dang, Arjun Birthi, Ayush Gundawar, Daniel Oh, and Jatong Su
 
-Developers: Anh Dang, Arjun Birthi, Ayush Gundawar, Daniel Oh, and Jatong Su
+## Purpose
