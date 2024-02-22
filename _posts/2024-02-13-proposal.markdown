@@ -20,6 +20,30 @@ The [dataset][intro-link-2] we plan on using includes features like price, area,
 # Problem Definition
 
 # Methods
+To predict house prices, we will use a combination of data preprocessing methods and machine learning algorithms. In the preprocessing phase, we will use encoding to convert non-numerical features, such as the construction material of a house or its neighborhood, into numerical values understandable by our models. Additionally, we'll standardize the features to align them closer to a standard Gaussian distribution, which involves subtracting the mean of each feature and dividing by its standard deviation. This step ensures compatibility with scikit-learn models. We will also implement feature engineering to incorporate additional relevant data, such as construction investments in the area or the quality of nearby schools, which could impact house prices.
+
+For the machine learning algorithms, we'll start with Linear Regression as a baseline to identify features that linearly correlate with house prices. We'll also explore XGBoost, which Sharma, Harsora, and Ogunleye (2024) identified as the optimal model for predicting house prices. XGBoost will be more effective in handling non-linear features introduced during feature engineering. Furthermore, we're considering a strategy that involves K-means Clustering followed by Regression. This approach acknowledges that houses in different regions may have distinct price-determining features. By clustering the houses based on similarities and then applying tailored regression models to each cluster, we can address specific regional factors. For example, the quality of the local public school might heavily influence prices in one neighborhood but be irrelevant in another due to population differences.
+
+
+We will use the following data preprocessing methods and ML algorithms to predict the house prices.
+Data preprocessing:
+1. Encoding
+ * There are features of a house that are not numerical, for example, the type of material the house is built with and the neighborhood it is located in. We will use encoding to translate those features into values that can be interpreted by the models.
+2. Standardization
+ * Each feature may have a different distribution, and if we want it to perform well with scikit learn models, it should be close to a standard Gaussian distribution. We will standardize the model by subtracting the mean of a feature from all the datasets and dividing it by the standard deviation.
+3. Feature Engineering
+ * We will combine datasets for more features that we believe are relevant to the house price, such as construction investment into the area, quality of nearby schools, etc.
+ML Algorithms
+1. Linear Regression
+ * This is a simple regression algorithm that we can use as a baseline. We can use it to discover features that have a linear relationship with price.
+2. XGBoost
+ * Sharma, Harsora, and Ogunleye (2024) determined XGBoost to be the optimal model for predicting house prices, so it is worth checking out.
+ * Since we will implement feature engineering to introduce nonlinear features, XGBoost will be able to handle it better than linear regression.
+3. K-means Clustering then Regression
+ * Different houses in different areas may have fundamentally different features that determine their price.
+ * It might be useful to first cluster the dataset, and then apply different regression models for each cluster.
+ * It is possible, for example, that in certain neighborhoods, the quality of the local school matters a lot, whereas in other neighborhoods, the population does not care, so house prices don’t reflect that.
+
 
 # Potential Results and Discussion
 
