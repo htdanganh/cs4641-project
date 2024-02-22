@@ -18,6 +18,7 @@ The [dataset][intro-link-2] we plan on using includes features like price, area,
 
 
 # Problem Definition
+In Georgia's dynamic real estate market, accurately pricing a house is a nuanced challenge, with traditional valuation methods (such as comparative market analysis) missing critical details and leaving out important context. Often, homes are inaccurately appraised and more accurate valuations can be costly in terms of both time and expenses. This project’s motivation stems from the opportunity to overcome these old limitations by leveraging machine learning models. By utilizing data on various factors, our model can bring a transparent, efficient, and accurate solution to this age-old problem.
 
 # Methods
 To predict house prices, we will use a combination of data preprocessing methods and machine learning algorithms. In the preprocessing phase, we will use encoding to convert non-numerical features, such as the construction material of a house or its neighborhood, into numerical values understandable by our models. Additionally, we'll standardize the features to align them closer to a standard Gaussian distribution, which involves subtracting the mean of each feature and dividing by its standard deviation. This step ensures compatibility with scikit-learn models. We will also implement feature engineering to incorporate additional relevant data, such as construction investments in the area or the quality of nearby schools, which could impact house prices.
