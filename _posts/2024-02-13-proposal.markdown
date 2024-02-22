@@ -27,6 +27,7 @@ For the machine learning algorithms, we'll start with Linear Regression as a bas
 
 
 We will use the following data preprocessing methods and ML algorithms to predict the house prices.
+
 Data preprocessing:
 1. Encoding
  * There are features of a house that are not numerical, for example, the type of material the house is built with and the neighborhood it is located in. We will use encoding to translate those features into values that can be interpreted by the models.
@@ -34,6 +35,7 @@ Data preprocessing:
  * Each feature may have a different distribution, and if we want it to perform well with scikit learn models, it should be close to a standard Gaussian distribution. We will standardize the model by subtracting the mean of a feature from all the datasets and dividing it by the standard deviation.
 3. Feature Engineering
  * We will combine datasets for more features that we believe are relevant to the house price, such as construction investment into the area, quality of nearby schools, etc.
+
 ML Algorithms
 1. Linear Regression
  * This is a simple regression algorithm that we can use as a baseline. We can use it to discover features that have a linear relationship with price.
