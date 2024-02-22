@@ -33,7 +33,7 @@ For the machine learning algorithms, we'll start with Linear Regression as a bas
 
 ## GANTT Chart
 
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQPLR3jTE39V2K0tIGH1kdZo5IN6oRspdIzQzABtd7MeiOdOoaVEUMRmsrYv4d63a6HDr7mUs0Uc939/pubhtml?widget=true&amp;headers=false" width="100%" height="800"></iframe>
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRBZB7JY8yruOs5z6lPQpfn93UFmg4UiQqshAJNssb6FTYe__kfTwO_-5BNhFIO5A/pubhtml?widget=true&amp;headers=false"></iframe>
 
 <br/>
 
