@@ -9,6 +9,14 @@ categories: jekyll update
 
 # Introduction
 
+Accurate house pricing is crucial in real estate and mortgage industries, influenced by physical attributes and neighborhood characteristics. Research has explored various machine learning techniques for house price prediction, with a study titled ["An Optimal House Price Prediction Algorithm: XGBoost"][intro-link-1] comparing algorithms such as XGBoost, support vector regressor, random forest regressor, multilayer perceptron, and multiple linear regression using the Ames City housing dataset. XGBoost was identified as the most effective model, offering interpretability, simplicity, and accuracy. 
+
+The [dataset][intro-link-2] we plan on using includes features like price, area, year built, bedrooms, and bathrooms, crucial for pricing, with amenities like garage and pool adding value. Location details like city and zipcode will assist in regional analysis.
+
+[intro-link-1]: https://arxiv.org/ftp/arxiv/papers/2402/2402.04082.pdf
+[intro-link-2]: https://www.kaggle.com/datasets/yellowj4acket/real-estate-georgia
+
+
 # Problem Definition
 
 # Methods
