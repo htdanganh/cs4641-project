@@ -50,9 +50,13 @@ ML Algorithms
 
 # References
 
+<br/>
+
 ## GANTT Chart
 
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQPLR3jTE39V2K0tIGH1kdZo5IN6oRspdIzQzABtd7MeiOdOoaVEUMRmsrYv4d63a6HDr7mUs0Uc939/pubhtml?widget=true&amp;headers=false" width="100%" height="800"></iframe>
+
+<br/>
 
 ## Contribution Table
 
@@ -64,6 +68,7 @@ ML Algorithms
 | Daniel Oh      | Potential Results and Discussion |
 | Jatong Su      | Methods                          |
 
+<br/>
 
 ## Video
 
