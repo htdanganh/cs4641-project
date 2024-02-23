@@ -28,6 +28,9 @@ For the machine learning algorithms, we'll start with Linear Regression as a bas
 # Potential Results and Discussion
 
 # References
+[1] F. Bergadano, R. Bertilone, D. Paolotti, and G. Ruffo, “Developing real estate automated valuation models by learning from  heterogeneous data sources,” International Journal of Real Estate Studies, vol. 15, no. 1, pp. 72–85, Jun. 2021. doi:10.11113/intrest.v15n1.10
+[2] G. Kamtziridis, D. Vrakas, and G. Tsoumakas, “Does noise affect housing prices? A case study in the urban area of Thessaloniki,” EPJ Data Science, vol. 12, no. 1, Oct. 2023. doi:10.1140/epjds/s13688-023-00424-3
+[3] H. Sharma, H. Harsora, and B. Ogunleye, “An optimal house price prediction algorithm: Xgboost,” Journal of Analytics, vol. 3, no. 1, pp. 30–45, Jan. 2024. doi:10.3390/analytics3010003
 
 <br/>
 
