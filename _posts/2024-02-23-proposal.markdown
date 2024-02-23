@@ -61,4 +61,4 @@ The quantitative metrics we plan to use include, but are not limited to, Root Me
 
 A link to the slideshow can be found [here][slideshow-link].
 
-[slideshow-link]: https://docs.google.com/presentation/d/1EGMJgCLksneyEFW0tC5T3iwEW4B7H_UWbXl6N1QM_FY/edit?usp=sharing
+[slideshow-link]: https://docs.google.com/presentation/d/1WmWOh9MtyfNmcLmgtFGCEFY_58O_ZdonvlalDUYnzbA/edit?usp=sharing
