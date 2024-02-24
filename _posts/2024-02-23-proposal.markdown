@@ -57,7 +57,7 @@ The quantitative metrics we plan to use include, but are not limited to, Root Me
 
 ## Video
 
-(Youtube link goes here)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QDoQntovw-o?si=3NxE1g7cIQxUpKaQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen> </iframe>
 
 A link to the slideshow can be found [here][slideshow-link].
 
