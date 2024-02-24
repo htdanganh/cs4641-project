@@ -57,7 +57,7 @@ The quantitative metrics we plan to use include, but are not limited to, Root Me
 
 ## Video
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QDoQntovw-o?si=3NxE1g7cIQxUpKaQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen> </iframe>
+<iframe src="https://www.youtube.com/embed/QDoQntovw-o?si=3NxE1g7cIQxUpKaQ" width="100%" height="100%" title="ML Project Proposal" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen> </iframe>
 
 A link to the slideshow can be found [here][slideshow-link].
 
