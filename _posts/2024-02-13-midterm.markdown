@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Midterm Checkpoint"
-date:   2024-02-13 11:11:11 -0500
+date:   2024-04-02 11:11:11 -0500
 categories: jekyll update
 ---
 
@@ -52,10 +52,10 @@ refer to guidance from the [proposal checklist][proposal-checklist-link]
 
 | Name           | Proposal Contributions           |
 | -------------- | -------------------------------- |
-| Anh Dang       |  |
-| Arjun Brithi   |  |
-| Ayush Gundawar |  |
-| Daniel Oh      |  |
-| Jatong Su      |  |
+| Anh Dang       | Data preprocessing, GitHub Pages |
+| Arjun Brithi   | Model Building                   |
+| Ayush Gundawar | Model Building, Methods          |
+| Daniel Oh      | Model Building                   |
+| Jatong Su      | Data preprocessing, Methods      |
 
 [proposal-checklist-link]: https://mahdi-roozbahani.github.io/CS46417641-spring2024/docs/grading/project-breakdown/proposal/#proposal-sections--checklist
