@@ -67,13 +67,13 @@ We had a high RMSE for linear regression. We suspect this is because the relatio
 
 The following graph shows the results of linear and ridge regression, respectively.
 
-![Linear Regression Results](/images/linear_regression.png)
+![Linear Regression Results](./images/linear_regression.png)
 
-![Ridge Regression Results](/images/ridge_regression.png)
+![Ridge Regression Results](./images/ridge_regression.png)
 
 The correlation matrix below reveals that there are a couple correlations among the features.
 
-![Correlation Matrix Results](/images/correlation_matrix.png)
+![Correlation Matrix Results](./images/correlation_matrix.png)
 
 One next step includes using a different model like XGBoost to handle nonlinear features. First cluster the data using K-means and then apply a regression like Neural Networks or XGBoost.
 
