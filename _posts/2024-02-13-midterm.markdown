@@ -51,7 +51,7 @@ The following table displays results for polynomial degree 2:
 
 The following table displays results for polynomial degree 1:
 
-| Best alpha | 6.351.11917342151276 |
+| Best alpha | 351.11917342151276 |
 | Train RMSE | 168714.003776309 |
 | Test RMSE | 159313.80684948218 |
 | Train RMSE Ridge | 168894.6141816911 |
