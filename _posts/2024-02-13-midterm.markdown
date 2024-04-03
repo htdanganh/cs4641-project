@@ -6,15 +6,17 @@ categories: jekyll update
 ---
 
 # Introduction
-Accurate house pricing is crucial in the real estate and mortgage industries, influenced by physical attributes and neighborhood characteristics. Research has explored various machine learning techniques for house price prediction, with a study titled "An Optimal House Price Prediction Algorithm: XGBoost" comparing algorithms such as XGBoost, Support Vector Regressor, Random Forest Regressor, Multilayer Perceptron, and Multiple Linear Regression using the Ames City housing dataset. XGBoost was identified as the most effective model, offering interpretability, simplicity, and accuracy [3].
+Accurate house pricing is essential in the real estate and mortgage industries, influenced by physical attributes and neighborhood characteristics. Research has explored various machine learning techniques for house price prediction. A study titled "An Optimal House Price Prediction Algorithm: XGBoost" compared algorithms such as XGBoost, Support Vector Regressor, Random Forest Regressor, Multilayer Perceptron, and Multiple Linear Regression using the Ames City housing dataset. XGBoost was identified as the most effective model, offering interpretability, simplicity, and accuracy [3].
+
+The dataset we used was a set of listings scraped from realtor.com, focusing on houses sold within the past 10 years in the following zip codes in Georgia: 30097, 30096, 30022, 30005. This dataset includes features like sell price, property location, year built, bedrooms, bathrooms, and other amenities crucial for pricing.  Location details will assist in future regional analysis [1].
 
 # Problem Definition
-In Georgia's dynamic real estate market, accurately pricing a house is a nuanced challenge. Traditional valuation methods, such as comparative market analysis, often miss critical details and lack important context [2]. As a result, homes are frequently inaccurately appraised, and more accurate valuations can be costly in terms of both time and expenses. This project is motivated by the opportunity to overcome these limitations by leveraging machine learning models.
+In Georgia's fluctuating real estate market, accurately pricing a house is a complex challenge. Traditional valuation methods, such as comparative market analysis, often overlook essential details and lack critical context [2]. This results in homes being frequently mispriced, leading to discrepancies in their market value. Moreover, obtaining more accurate valuations can be both time-consuming and costly. This project seeks to address these limitations by leveraging machine learning models, which can analyze vast amounts of data to provide more precise and reliable property valuations.
 
 # Methods
 First, we cleaned the data by removing duplicate listings and replacing null values. During the preprocessing step, we selected features that could be numerically represented for the training step. Out of the 29 columns of the original dataset, we reduced 12 relevant features. Features such as `state` and `status` were removed because their variances were 0. Irrelevant features such as `mls_id`, `property_url`, and `primary_photo` were also removed. Location features such as `city` and `street` were removed because `longitude` and `latitude` were already provided. 
 
-The following table represents the remaining features after cleaning.
+The following table represents the remaining features after cleaning:
 
 | # | Column | Non-Null Count | Dtype |
 | 0 | style | 21338 non-null | object |
@@ -63,19 +65,20 @@ The following table displays results for polynomial degree 1:
 
 
 # Results and Discussion
-We had a high RMSE for linear regression. We suspect this is because the relationship between price and the features is nonlinear. We did try increasing the degrees of numerical features, but that helped only a little.
+We had a high RMSE of around 140,000 for linear regression. Note that the mean house price is around 490,000. We suspect this is because the relationship between price and the features is nonlinear. We did try increasing the degrees of numerical features, but that helped only a little. However, our R^2 values for our models were around 0.8, which means the models have relatively good fit. Thus, the high RMSE value could be partially explained by some bad datapoint outliers that are disproportionately affecting RMSE (such as the points in the bottom right corner of the graph).
 
-The following graph shows the results of linear and ridge regression, respectively.
+The following graphs show the results of linear and ridge regression, respectively.
 
 ![Linear Regression Results]({{site.baseurl}}/images/linear_regression.png)
+There are lots of points that are outliers from the linear regression line, which may explain the high RMSE.
 
 ![Ridge Regression Results]({{site.baseurl}}//images/ridge_regression.png)
-
-The correlation matrix below reveals that there are a couple correlations among the features.
+Similar to our linear regression model, there are lots of points that are outliers from the linear regression line, which may explain the high RMSE.
 
 ![Correlation Matrix Results]({{site.baseurl}}//images/correlation_matrix.png)
+This correlation heatmap shows the correlations between different features in the dataset, with lighter colors representing a strong correlation and vice versa.
 
-One next step includes using a different model like XGBoost to handle nonlinear features. First cluster the data using K-means and then apply a regression like Neural Networks or XGBoost.
+One of our next steps includes using a different model like XGBoost to handle non-linear features. We could also first cluster the data using K-means and then apply a regression like Neural Networks or XGBoost to each individual cluster.
 
 
 # References
