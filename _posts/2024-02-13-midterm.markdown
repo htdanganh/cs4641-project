@@ -12,7 +12,7 @@ Accurate house pricing is crucial in the real estate and mortgage industries, in
 In Georgia's dynamic real estate market, accurately pricing a house is a nuanced challenge. Traditional valuation methods, such as comparative market analysis, often miss critical details and lack important context [2]. As a result, homes are frequently inaccurately appraised, and more accurate valuations can be costly in terms of both time and expenses. This project is motivated by the opportunity to overcome these limitations by leveraging machine learning models.
 
 # Methods
-First, we cleaned the data by removing duplicate listings and replacing null values. During the preprocessing step, we selected features that could be numerically represented for the training step. Out of the 29 columns of the original dataset, we reduced 12 relevant features. Features such as “state” and “status” were removed because their variances were 0. Irrelevant features such as “mls_id”, “property_url”, and “primary_photo” were also removed. Location features such as “city” and “street” were removed because “longitude” and “latitude” were already provided. 
+First, we cleaned the data by removing duplicate listings and replacing null values. During the preprocessing step, we selected features that could be numerically represented for the training step. Out of the 29 columns of the original dataset, we reduced 12 relevant features. Features such as `state` and `status` were removed because their variances were 0. Irrelevant features such as `mls_id`, `property_url`, and `primary_photo` were also removed. Location features such as `city` and `street` were removed because `longitude` and `latitude` were already provided. 
 
 The following table represents the remaining features after cleaning.
 
@@ -31,7 +31,7 @@ The following table represents the remaining features after cleaning.
 | 11 | stories | 21338 non-null | float64 |
 | 12 | parking_garage | 21338 non-null | float64 |
 
-We one hot encoded the “style” feature because it is a categorical feature. Then, we converted “list_date” to the number of days since unix time so that we could treat it numerically. We looked at the correlation matrix for our features and saw that “beds”, “full_baths”, and other features were highly correlated, so we decided to test ridge regression along with linear regression. We then standardized the features and applied linear regression. 
+We one hot encoded the `style` feature because it is a categorical feature. Then, we converted `list_date` to the number of days since unix time so that we could treat it numerically. We looked at the correlation matrix for our features and saw that `beds`, `full_baths`, and other features were highly correlated, so we decided to test ridge regression along with linear regression. We then standardized the features and applied linear regression. 
 
 We chose linear regression as our ML algorithm to predict property prices. Since linear regression is a supervised learning method suitable for continuous data, it made sense to apply it to our target variable. We selected this model for its interpretability, as it easily allowed us to understand how different property attributes influence prices by looking at the weights of the model. Additionally, its computational efficiency and simplicity make it an excellent baseline model. We noticed that there were a couple of highly correlated features, so we decided to also test ridge regression. 
 
