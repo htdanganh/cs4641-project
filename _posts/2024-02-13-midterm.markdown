@@ -72,7 +72,7 @@ The following graph shows the results of linear and ridge regression, respective
 The correlation matrix below reveals that there are a couple correlations among the features.
 ![Correlation Matrix Results][correlation_matrix.png]
 
-One next steps includes using a different model like XGBoost to handle nonlinear features. First cluster the data using K-means and then apply a regression like Neural Networks or XGBoost.
+One next step includes using a different model like XGBoost to handle nonlinear features. First cluster the data using K-means and then apply a regression like Neural Networks or XGBoost.
 
 
 # References
