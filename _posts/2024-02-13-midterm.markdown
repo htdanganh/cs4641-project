@@ -84,7 +84,7 @@ One next step includes using a different model like XGBoost to handle nonlinear 
 
 ## GANTT Chart
 
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQPLR3jTE39V2K0tIGH1kdZo5IN6oRspdIzQzABtd7MeiOdOoaVEUMRmsrYv4d63a6HDr7mUs0Uc939/pubhtml?widget=true&amp;headers=false" width="100%" height="800"></iframe>
+<iframe src="https://docs.google.com/spreadsheets/d/1_elvDbVHnwXfzjeEuCmS__8oApn3JkkR/edit?usp=sharing&ouid=100351955559558124571&rtpof=true&sd=true" width="100%" height="800"></iframe>
 
 ## Contribution Table
 
