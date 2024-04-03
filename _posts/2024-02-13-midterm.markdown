@@ -66,11 +66,11 @@ The following table displays results for polynomial degree 1:
 We had a high RMSE for linear regression. We suspect this is because the relationship between price and the features is nonlinear. We did try increasing the degrees of numerical features, but that helped only a little.
 
 The following graph shows the results of linear and ridge regression, respectively.
-![Linear Regression Results](linear_regression.png)
-![Ridge Regression Results](ridge_regression.png)
+![Linear Regression Results](/_site/assets/linear_regression.png)
+![Ridge Regression Results](/_site/assets/ridge_regression.png)
 
 The correlation matrix below reveals that there are a couple correlations among the features.
-![Correlation Matrix Results][correlation_matrix.png]
+![Correlation Matrix Results](/_site/assets/correlation_matrix.png)
 
 One next step includes using a different model like XGBoost to handle nonlinear features. First cluster the data using K-means and then apply a regression like Neural Networks or XGBoost.
 
