@@ -18,9 +18,9 @@ Accurate house pricing in Georgia's dynamic real estate market poses a complex c
 
 ## Preprocessing
 
-Initially, the data was cleansed by eliminating duplicate entries and imputing missing values. In the preprocessing phase, a selection was made to include only those features amenable to numerical representation for the training process. The original dataset comprised 29 columns, from which 12 pertinent features were retained after excluding irrelevant ones such as 'mls_id', 'property_url', and 'primary_photo'.
+Initially, the data was cleansed by eliminating duplicate entries and imputing missing values. In the preprocessing phase, a selection was made to include only those features amenable to numerical representation for the training process. The original dataset comprised 29 columns, from which 12 pertinent features were retained after excluding irrelevant ones such as `mls_id`, `property_url`, and `primary_photo`.
 
-The refined dataset comprised the following features: ['status', 'style', 'street', 'city', 'zip_code', 'beds', 'full_baths', 'half_baths', 'sqft', 'year_built', 'days_on_mls', 'list_price', 'list_date', 'sold_price', 'last_sold_date', 'lot_sqft', 'price_per_sqft', 'latitude', 'longitude', 'stories', 'hoa_fee', 'parking_garage'].
+The refined dataset comprised the following features: [`status`, `style`, `street`, `city`, `zip_code`, `beds`, `full_baths`, `half_baths`, `sqft`, `year_built`, `days_on_mls`, `list_price`, `list_date`, `sold_price`, `last_sold_date`, `lot_sqft`, `price_per_sqft`, `latitude`, `longitude`, `stories`, `hoa_fee`, `parking_garage`].
 
 Categorical variables including "status," "style," "street," "city," and "zip_code" underwent one-hot encoding. Numerical features were cleansed of extreme outliers. The "list_date" was transformed into a numerical format representing the number of days since the Unix epoch, facilitating its use in quantitative analysis. Additionally, the age of the property was calculated by determining the interval between the current date and the "year_built." Temporal attributes such as month, quarter, and year were derived from "list_date" to capture potential seasonal influences on the models. Subsequently, the features were standardized, and the dataset was divided into training and testing subsets.
 
@@ -74,7 +74,7 @@ The following table displays results for polynomial degree 1:
 | Train R2 Ridge | 0.7299653675430132 |
 | Test R2 Ridge | 0.7518242110813702xs |
 
-We had a high RMSE of around 140,000 for linear regression. Note that the mean house price is around 490,000. We suspect this is because the relationship between price and the features is nonlinear. We did try increasing the degrees of numerical features, but that helped only a little. However, our R^2 values for our models were around 0.8, which means the models have relatively good fit. Thus, the high RMSE value could be partially explained by some bad datapoint outliers that are disproportionately affecting RMSE (such as the points in the bottom right corner of the graph).
+We had a high RMSE of around 140,000 for linear regression. Note that the mean house price is around 490,000. We suspect this is because the relationship between price and the features is nonlinear. We did try increasing the degrees of numerical features, but that helped only a little. However, our R^2 values for our models were around 0.8, which means the models have a relatively good fit. Thus, the high RMSE value could be partially explained by some bad datapoint outliers that are disproportionately affecting RMSE (such as the points in the bottom right corner of the graph).
 
 ![Linear Regression Results]({{site.baseurl}}/images/linear_regression.png)
 
@@ -93,7 +93,7 @@ The following table displays the results for the random forest model:
 | Testing RMSE | 63990.71949090199 |
 | Testing R^2 | 0.8802218333936377 |
 
-Random Forest had a significantly lower RMSE on the training data than both the linear and ridge regression models, at around 24,000. However, there was a significant increase on the RMSE on the testing data, which strongly hints that there may be overfitting in this model. We can see that there was still a high R^2 of around 0.88, which suggests that despite struggling to generalize to some unseen data, the Random Forest model is generally able to capture variance in the dataset well.
+Random Forest had a significantly lower RMSE on the training data than both the linear and ridge regression models, at around 24,000. However, there was a significant increase in the RMSE on the testing data, which strongly hints that there may be overfitting in this model. We can see that there was still a high R^2 of around 0.88, which suggests that despite struggling to generalize to some unseen data, the Random Forest model is generally able to capture variance in the dataset well.
 
 ![Random Forest Results]({{site.baseurl}}/images/forest_results.png)
 
