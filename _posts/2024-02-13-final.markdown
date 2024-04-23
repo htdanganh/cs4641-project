@@ -77,9 +77,11 @@ The following table displays results for polynomial degree 1:
 We had a high RMSE of around 140,000 for linear regression. Note that the mean house price is around 490,000. We suspect this is because the relationship between price and the features is nonlinear. We did try increasing the degrees of numerical features, but that helped only a little. However, our R^2 values for our models were around 0.8, which means the models have relatively good fit. Thus, the high RMSE value could be partially explained by some bad datapoint outliers that are disproportionately affecting RMSE (such as the points in the bottom right corner of the graph).
 
 ![Linear Regression Results]({{site.baseurl}}/images/linear_regression.png)
+
 There are lots of points that are outliers from the linear regression line, which may explain the high RMSE.
 
 ![Ridge Regression Results]({{site.baseurl}}//images/ridge_regression.png)
+
 Similar to our linear regression model, there are lots of points that are outliers from the linear regression line, which may explain the high RMSE.
 
 ## Random Forest
@@ -94,9 +96,11 @@ The following table displays the results for the random forest model:
 Random Forest had a significantly lower RMSE on the training data than both the linear and ridge regression models, at around 24,000. However, there was a significant increase on the RMSE on the testing data, which strongly hints that there may be overfitting in this model. We can see that there was still a high R^2 of around 0.88, which suggests that despite struggling to generalize to some unseen data, the Random Forest model is generally able to capture variance in the dataset well.
 
 ![Random Forest Results]({{site.baseurl}}/images/forest_results.png)
+
 The perfect fit line is roughly along the middle, but there are still lots of data points in both sets that are far from it, showcasing why there may be a high RMSE.
 
 ![Random Forest Relative Feature Importance]({{site.baseurl}}/images/forest_features.png)
+
 Relative Feature Importance - Random Forest provides insights into feature importance, allowing us to understand which features have the biggest impacts on housing price predictions. This information can be extremely valuable when weighing house purchasing decisions. Here, we see that square footage has, by far, the most relative importance out of all the features, with years since the last sale, full bathroom count, latitude (position), and HOA fees rounding out the top five.
 
 ## XGBoost
@@ -111,9 +115,11 @@ The following table displays the results for the random forest model:
 XGBoost had a relatively low RMSE on both the training and testing data, showing that it had a pretty strong performance overall. On the training data, the high R^2 of 0.92 and generally low RMSE of around 51,000 suggests that the XGBoost model was a good fit to the training data. On the testing data, the R^2 slightly decreased to around 0.89, and the RMSE slightly increased to around 61,000, implying a somewhat worse fit, but the numbers are quite similar overall. Compared to previous models, XGBoost does not seem to struggle with generalizing as much, although there is still a slight discrepancy between the two results. Nonetheless, its low RMSE and high R^2 indicate XGBoost’s ability to effectively learn patterns and relationships within the data. 
 
 ![XGBoost Results]({{site.baseurl}}/images/xgboost_results.png)
+
 The perfect fit line aligns approximately with the middle of the data distribution, yet the numerous data points that significantly deviate from it contribute to the high RMSE, especially in the (relatively higher RMSE) testing data. 
 
 ![XGBoost Relative Feature Importance]({{site.baseurl}}/images/xgboost_features.png)
+
 Similarly to Random Forest, XGBoost provides us with a relative feature importance table. Again, the most important feature is square footage, and the rest of the top five is the same.
 
 ## Feature Correlation
@@ -138,6 +144,8 @@ Future initiatives will focus on refining hyperparameters for the Random Forest 
 [2] G. Kamtziridis, D. Vrakas, and G. Tsoumakas, “Does noise affect housing prices? A case study in the urban area of Thessaloniki,” EPJ Data Science, vol. 12, no. 1, Oct. 2023. doi:10.1140/epjds/s13688-023-00424-3
 
 [3] H. Sharma, H. Harsora, and B. Ogunleye, “An optimal house price prediction algorithm: Xgboost,” Journal of Analytics, vol. 3, no. 1, pp. 30–45, Jan. 2024. doi:10.3390/analytics3010003
+
+## Presentation Video
 
 ## GANTT Chart
 
