@@ -147,6 +147,10 @@ Future initiatives will focus on refining hyperparameters for the Random Forest 
 
 ## Presentation Video
 
+[Video][video-link]
+
+[video-link]: https://www.youtube.com/embed/fkPIGCNRyrc?si=qByw632EY6exDYzu"
+
 ## GANTT Chart
 
 <iframe src="https://docs.google.com/spreadsheets/d/1_elvDbVHnwXfzjeEuCmS__8oApn3JkkR/edit?usp=sharing&ouid=100351955559558124571&rtpof=true&sd=true" width="100%" height="800"></iframe>
