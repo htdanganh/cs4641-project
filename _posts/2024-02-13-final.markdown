@@ -157,7 +157,7 @@ Future initiatives will focus on refining hyperparameters for the Random Forest 
 
 ## Contribution Table
 
-| Name           | Proposal Contributions                   |
+| Name           | Contributions                            |
 | -------------- | ---------------------------------------- |
 | Anh Dang       | Video (editing, narration), GitHub Pages |
 | Arjun Brithi   | Video (slides, script), models           |
