@@ -45,7 +45,7 @@ The quantitative metrics we plan to use include Root Mean Squared Error, Mean Ab
 
 ## Contribution Table
 
-| Name           | Proposal Contributions           |
+| Name           | Contributions                    |
 | -------------- | -------------------------------- |
 | Anh Dang       | Video Presentation, GitHub       |
 | Arjun Birthi   | Gantt Chart, Problem Definition  |
