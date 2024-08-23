@@ -94,7 +94,7 @@ One of our next steps includes using a different model like XGBoost to handle no
 
 ## Contribution Table
 
-| Name           | Proposal Contributions           |
+| Name           | Contributions                    |
 | -------------- | -------------------------------- |
 | Anh Dang       | Data preprocessing, GitHub Pages |
 | Arjun Brithi   | Model Building                   |
