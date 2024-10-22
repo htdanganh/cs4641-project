@@ -38,7 +38,7 @@ Despite their respective strengths, each model encountered challenges in accurat
 
 Future initiatives will focus on refining hyperparameters for the Random Forest and XGBoost models, advancing feature engineering techniques to derive more significant data insights, exploring ensemble methods such as stacking and blending to augment accuracy and incorporating external factors like market trends and economic indicators into our analysis.
 
-# References
+## References
 [1] F. Bergadano, R. Bertilone, D. Paolotti, and G. Ruffo, “Developing real estate automated valuation models by learning from  heterogeneous data sources,” International Journal of Real Estate Studies, vol. 15, no. 1, pp. 72–85, Jun. 2021. doi:10.11113/intrest.v15n1.10
 
 [2] G. Kamtziridis, D. Vrakas, and G. Tsoumakas, “Does noise affect housing prices? A case study in the urban area of Thessaloniki,” EPJ Data Science, vol. 12, no. 1, Oct. 2023. doi:10.1140/epjds/s13688-023-00424-3
